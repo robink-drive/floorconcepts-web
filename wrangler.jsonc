@@ -1,8 +1,25 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
+  // Keep dashboard-defined plaintext Worker vars across `wrangler deploy` (secrets are never removed by deploy).
+  "keep_vars": true,
+  "main": ".open-next/worker.js",
   "name": "floorconcepts-web",
-  "compatibility_date": "2026-04-19",
+  "compatibility_date": "2026-04-16",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
   "assets": {
-    "directory": "./out"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "floorconcepts-web"
+    }
+  ],
+  "observability": {
+    "enabled": true
   }
 }
