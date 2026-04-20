@@ -21,11 +21,12 @@ export function ComingSoon({
         priority
         fetchPriority="high"
         sizes="100vw"
-        quality={72}
+        quality={75}
         decoding="async"
-        className="z-0 object-cover"
+        className="z-0 object-cover sm:object-center object-[62%_center]"
       />
       <div
+
         className="pointer-events-none absolute inset-0 z-1 bg-linear-to-t from-black/55 via-black/40 to-black/40"
         aria-hidden
       />
