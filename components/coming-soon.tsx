@@ -38,8 +38,6 @@ export function ComingSoon({
           {title}
         </h1>
       </div>
-      <div className=" max-sm:hidden absolute right-3 bottom-8 z-2 bg-black/40 px-8 py-8 ring-1 ring-black/30 backdrop-blur-sm rounded-2xl">
-      </div>
     </section>
   );
 }
