@@ -10,6 +10,8 @@
     "lint": "eslint",
     "preview": "npm run build && opennextjs-cloudflare preview",
     "deploy": "npm run build && opennextjs-cloudflare deploy -- --keep-vars",
+    "build:staging": "opennextjs-cloudflare build --env=staging",
+    "deploy:staging": "npm run build:staging && opennextjs-cloudflare deploy --env=staging -- --keep-vars",
     "upload": "npm run build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },

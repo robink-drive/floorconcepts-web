@@ -21,5 +21,22 @@
   ],
   "observability": {
     "enabled": true
+  },
+  "env": {
+    "staging": {
+      "name": "floorconcepts-web-staging",
+      "routes": [
+        {
+          "pattern": "staging.floorconcepts.ca",
+          "custom_domain": true
+        }
+      ],
+      "services": [
+        {
+          "binding": "WORKER_SELF_REFERENCE",
+          "service": "floorconcepts-web-staging"
+        }
+      ]
+    }
   }
 }
