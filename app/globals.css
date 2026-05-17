@@ -7,9 +7,13 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand: var(--brand);
+  --color-brand-muted: var(--brand-muted);
+  --color-brand-surface: var(--brand-surface);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
+  --font-serif: var(--font-serif);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,6 +53,9 @@
 }
 
 :root {
+  --brand: oklch(0.32 0.05 195);
+  --brand-muted: oklch(0.48 0.03 195);
+  --brand-surface: oklch(0.95 0.012 195);
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -126,5 +133,59 @@
   }
   html {
     @apply font-sans;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-[0.8125rem] font-normal uppercase tracking-[0.2em] text-brand transition-colors hover:text-brand/75 sm:text-sm;
+  }
+
+  .dropdown-panel {
+    @apply rounded-sm border border-brand/8 bg-brand-surface py-2 shadow-[0_8px_28px_rgba(26,58,58,0.12)];
+  }
+
+  .dropdown-item {
+    @apply block px-6 py-3.5 text-[0.8125rem] font-normal uppercase tracking-[0.16em] text-brand transition-colors hover:bg-brand/5;
+  }
+
+  .mobile-menu-link {
+    @apply block py-5 text-base font-normal text-brand transition-colors hover:text-brand/75 sm:py-[1.125rem] sm:text-[0.8125rem] sm:uppercase sm:tracking-[0.2em];
+  }
+
+  .mobile-menu-panel-item {
+    @apply py-5 sm:flex sm:items-center sm:justify-between sm:py-[1.125rem];
+  }
+
+  .mobile-menu-panel-label {
+    @apply block text-base font-normal text-brand sm:text-[0.8125rem] sm:uppercase sm:tracking-[0.2em];
+  }
+
+  .mobile-menu-panel-chevron {
+    @apply mt-3 sm:mt-0;
+  }
+
+  .mobile-menu-sub-link {
+    @apply block py-5 text-base font-normal text-brand transition-colors hover:text-brand/75 sm:py-[1.125rem] sm:text-[0.8125rem] sm:uppercase sm:tracking-[0.18em];
+  }
+
+  .mobile-menu-footer-contact {
+    @apply space-y-0.5 text-[0.9375rem] text-brand/85;
+  }
+
+  .section-eyebrow {
+    @apply text-xs font-normal uppercase tracking-[0.32em] text-brand-muted;
+  }
+
+  .section-title {
+    @apply font-serif text-[clamp(1.75rem,3vw,2.25rem)] font-medium leading-tight text-brand;
+  }
+
+  .hero-title {
+    @apply text-[clamp(2.75rem,6vw,4.75rem)] font-extralight leading-[1.05] tracking-tight text-white;
+  }
+
+  .hero-subtitle {
+    @apply text-[clamp(1rem,2vw,1.5rem)] font-light lowercase tracking-wide text-white/90;
   }
 }
