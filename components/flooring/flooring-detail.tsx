@@ -26,7 +26,7 @@ export function FlooringDetail({ flooring }: FlooringDetailProps) {
         <SiteContainer>
           <h2 className="section-eyebrow">Styles</h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            Explore style families—we&apos;ll help you narrow selections in the
+            Explore style families. We&apos;ll help you narrow selections in the
             showroom. No product catalogue on this page.
           </p>
           <ul className="mt-10 divide-y divide-brand/10 border-y border-brand/10">

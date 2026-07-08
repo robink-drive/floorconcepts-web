@@ -14,7 +14,7 @@ export default function ContactPage() {
         <p className="section-eyebrow">Contact</p>
         <h1 className="section-title mt-3">Get in touch</h1>
         <p className="mt-5 text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base">
-          Visit our showroom, call, or email—we&apos;re happy to help with
+          Visit our showroom, call, or email. We&apos;re happy to help with
           samples, estimates, and project planning.
         </p>
         <ul className="mt-8 space-y-3 text-[0.9375rem] text-foreground/85">
@@ -43,7 +43,7 @@ export default function ContactPage() {
           <QuoteCtaButton />
         </div>
         <p className="mt-6 text-sm text-muted-foreground">
-          Quote request form coming soon—button links here for lead capture
+          Quote request form coming soon. Button links here for lead capture
           integration.
         </p>
       </SiteContainer>

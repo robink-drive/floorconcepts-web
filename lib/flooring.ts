@@ -117,7 +117,7 @@ export const flooringTypes: FlooringType[] = [
     shortTitle: "LVT",
     description: "Waterproof luxury vinyl with premium wood and stone visuals.",
     intro:
-      "LVT combines waterproof performance with designer looks—ideal for basements, kitchens, and rental properties.",
+      "LVT combines waterproof performance with designer looks, ideal for basements, kitchens, and rental properties.",
     image: "/banners/modern-interior.jpg",
     imageAlt: "Luxury vinyl tile flooring with wood-look planks",
     styles: [

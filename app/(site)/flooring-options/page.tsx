@@ -15,7 +15,7 @@ export default function FlooringOptionsPage() {
         <p className="section-eyebrow">Explore</p>
         <h1 className="section-title mt-3">Flooring Options</h1>
         <p className="mt-5 max-w-2xl text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base">
-          Browse by flooring type. Each page outlines available styles—visit our
+          Browse by flooring type. Each page outlines available styles. Visit our
           showroom for samples and expert recommendations.
         </p>
         <ul className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

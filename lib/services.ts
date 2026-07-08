@@ -42,7 +42,7 @@ export const services: Service[] = [
     title: "Custom Flooring",
     description: "Unique patterns, inlays, and bespoke finishes for statement spaces.",
     intro:
-      "When standard layouts are not enough, our team helps you realize custom designs—from herringbone layouts to mixed-material transitions.",
+      "When standard layouts are not enough, our team helps you realize custom designs, from herringbone layouts to mixed-material transitions.",
     image: "/banners/modern-interior.jpg",
     imageAlt: "Custom herringbone hardwood flooring detail",
     highlights: [

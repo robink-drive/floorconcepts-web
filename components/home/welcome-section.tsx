@@ -16,7 +16,7 @@ export function WelcomeSection() {
           <p>
             At Flooring Concepts, quality means more than providing the best
             products. We go the extra mile to deliver a memorable customer
-            experience—from your first visit through installation and beyond.
+            experience, from your first visit through installation and beyond.
           </p>
           <p>
             Our team values your space, ideas, and budget as though they are our

@@ -121,7 +121,7 @@ export type PartnerLogo = {
   readonly alt: string;
 };
 
-/** Home page partner slider — replace logos in /public/partners/ */
+/** Home page partner slider: replace logos in /public/partners/ */
 export const partnerLogos: readonly PartnerLogo[] = [
   {
     name: "Daltile",
@@ -173,14 +173,14 @@ export const testimonials: readonly Testimonial[] = [
     name: "Priya K.",
     relativeDate: "8 months ago",
     rating: 5,
-    text: "We compared several showrooms—Flooring Concepts had the best mix of quality, price, and service. The staff never rushed us and answered every question about maintenance and warranty.",
+    text: "We compared several showrooms, and Flooring Concepts had the best mix of quality, price, and service. The staff never rushed us and answered every question about maintenance and warranty.",
     avatarColor: "bg-[oklch(0.55_0.06_195)]",
   },
   {
     name: "Marcus L.",
     relativeDate: "1 year ago",
     rating: 5,
-    text: "Outstanding experience from start to finish. They helped us choose the right hardwood for our main floor, coordinated timing with our contractor, and left the site spotless. The craftsmanship shows in every room—could not be happier with the result and would recommend them to anyone looking for quality flooring in Edmonton.",
+    text: "Outstanding experience from start to finish. They helped us choose the right hardwood for our main floor, coordinated timing with our contractor, and left the site spotless. The craftsmanship shows in every room. Could not be happier with the result and would recommend them to anyone looking for quality flooring in Edmonton.",
     avatarColor: "bg-[oklch(0.62_0.14_45)]",
   },
 ] as const;
@@ -188,7 +188,7 @@ export const testimonials: readonly Testimonial[] = [
 export const valuesColumns = [
   {
     title: "Why Choose Us",
-    body: "Whether you need luxury vinyl for a basement or hardwood for a full main-floor renovation, Flooring Concepts brings trusted products, transparent guidance, and installation expertise. No project is too large or too small—we treat your home like our own.",
+    body: "Whether you need luxury vinyl for a basement or hardwood for a full main-floor renovation, Flooring Concepts brings trusted products, transparent guidance, and installation expertise. No project is too large or too small. We treat your home like our own.",
   },
   {
     title: "Maintenance & Care",
