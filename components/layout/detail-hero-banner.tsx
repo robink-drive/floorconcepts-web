@@ -27,7 +27,7 @@ export function DetailHeroBanner({
         className="object-cover object-center"
       />
       <div
-        className="absolute inset-0 bg-linear-to-r from-brand-surface from-35% via-brand-surface/75 via-55% to-brand-surface/15"
+        className="absolute inset-0 bg-linear-to-r from-brand-surface/90 from-28% via-brand-surface/45 via-48% to-transparent"
         aria-hidden
       />
       <SiteContainer className="relative z-10">
