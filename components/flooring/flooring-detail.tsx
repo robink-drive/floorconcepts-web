@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DetailHeroBanner } from "@/components/layout/detail-hero-banner";
 import { SiteContainer } from "@/components/layout/site-container";
 import { QuoteCtaButton } from "@/components/ui/quote-cta-button";
 import type { FlooringType } from "@/lib/flooring";
@@ -13,15 +14,13 @@ type FlooringDetailProps = {
 export function FlooringDetail({ flooring }: FlooringDetailProps) {
   return (
     <>
-      <section className="border-b border-brand/10 bg-brand-surface py-16 sm:py-20">
-        <SiteContainer>
-          <p className="section-eyebrow">Flooring Options</p>
-          <h1 className="section-title mt-3">{flooring.title}</h1>
-          <p className="mt-5 max-w-2xl text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base">
-            {flooring.intro}
-          </p>
-        </SiteContainer>
-      </section>
+      <DetailHeroBanner
+        eyebrow="Flooring Options"
+        title={flooring.title}
+        description={flooring.intro}
+        image={flooring.image}
+        imageAlt={flooring.imageAlt}
+      />
 
       <section className="py-16 sm:py-24">
         <SiteContainer>

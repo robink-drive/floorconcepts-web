@@ -3,6 +3,8 @@ export type Service = {
   title: string;
   description: string;
   intro: string;
+  image: string;
+  imageAlt: string;
   highlights: string[];
 };
 
@@ -13,6 +15,8 @@ export const services: Service[] = [
     description: "Flooring solutions tailored to homes, condos, and renovations.",
     intro:
       "From single-room updates to whole-home transformations, we help homeowners choose materials that fit lifestyle, budget, and design goals.",
+    image: "/banners/interior.jpg",
+    imageAlt: "Residential living room with premium flooring",
     highlights: [
       "In-home consultations and showroom samples",
       "Hardwood, vinyl, tile, carpet, and more",
@@ -25,6 +29,8 @@ export const services: Service[] = [
     description: "Durable flooring for offices, retail, and multi-unit properties.",
     intro:
       "Commercial projects demand performance, compliance, and minimal downtime. We specify products built for traffic while keeping your space presentable during install.",
+    image: "/banners/office.jpg",
+    imageAlt: "Modern commercial office space with durable flooring",
     highlights: [
       "High-traffic and slip-resistant options",
       "Phased installation planning",
@@ -37,6 +43,8 @@ export const services: Service[] = [
     description: "Unique patterns, inlays, and bespoke finishes for statement spaces.",
     intro:
       "When standard layouts are not enough, our team helps you realize custom designs—from herringbone layouts to mixed-material transitions.",
+    image: "/banners/modern-interior.jpg",
+    imageAlt: "Custom herringbone hardwood flooring detail",
     highlights: [
       "Designer and architect collaboration",
       "Site-finished and custom stain options",
@@ -49,6 +57,8 @@ export const services: Service[] = [
     description: "Professional installation by experienced flooring craftsmen.",
     intro:
       "Proper installation protects your investment. Our installers follow manufacturer guidelines and respect your home throughout the project.",
+    image: "/banners/installation.jpg",
+    imageAlt: "Professional flooring installation in progress",
     highlights: [
       "Subfloor assessment and prep",
       "Clean, efficient worksites",
@@ -61,6 +71,8 @@ export const services: Service[] = [
     description: "Flooring replacement and restoration for insurance claims.",
     intro:
       "Water damage and unexpected loss are stressful. We work with adjusters and homeowners to document, match, and restore flooring efficiently.",
+    image: "/banners/interior.jpg",
+    imageAlt: "Home interior ready for flooring restoration",
     highlights: [
       "Damage assessment and documentation",
       "Product matching for seamless repairs",
@@ -73,6 +85,8 @@ export const services: Service[] = [
     description: "Ongoing care, repairs, and warranty support after installation.",
     intro:
       "Floors perform best with the right care. We help you maintain warranties, address wear, and keep surfaces looking their best year after year.",
+    image: "/banners/carpet.jpg",
+    imageAlt: "Well-maintained hardwood flooring in a cared-for home",
     highlights: [
       "Cleaning and care recommendations",
       "Re-stretch, repair, and refinishing options",
