@@ -42,7 +42,8 @@ export function SiteHeader() {
         <SiteContainer
           as="div"
           className={cn(
-            "grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-4 lg:gap-6",
+            // Mobile: logo left + menu right; lg+: centered logo between nav and actions
+            "flex items-center justify-between gap-4 lg:grid lg:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] lg:gap-6",
             SITE_HEADER_HEIGHT
           )}
         >
@@ -61,7 +62,7 @@ export function SiteHeader() {
             )}
           </nav>
 
-          <div className="relative z-10 justify-self-center">
+          <div className="relative z-10 shrink-0 lg:justify-self-center">
             <Logo variant={isLight ? "light" : "dark"} />
           </div>
 
