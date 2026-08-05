@@ -16,7 +16,7 @@ export default function ServicesPage() {
         <h1 className="section-title mt-3">Our Services</h1>
         <p className="mt-5 max-w-2xl text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base">
           From residential upgrades to commercial installs and insurance
-          restoration, Flooring Concepts supports your project end to end.
+          restoration, Floor Concepts supports your project end to end.
         </p>
         <ul className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (

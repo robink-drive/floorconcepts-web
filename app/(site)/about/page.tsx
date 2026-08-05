@@ -12,7 +12,7 @@ export default function AboutPage() {
     <section className="py-20 sm:py-28">
       <SiteContainer>
         <p className="section-eyebrow">About</p>
-        <h1 className="section-title mt-3">About Flooring Concepts</h1>
+        <h1 className="section-title mt-3">About Floor Concepts</h1>
         <p className="mt-5 max-w-2xl text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base">
           We guide you from inspiration to installation with transparent
           communication, respect for your budget, and craftsmanship you can see

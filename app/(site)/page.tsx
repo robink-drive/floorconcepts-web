@@ -11,7 +11,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: `${site.name} | Quality Flooring`,
   description:
-    "Flooring Concepts offers premium flooring products and installation for residential and commercial spaces.",
+    "Floor Concepts offers premium flooring products and installation for residential and commercial spaces.",
 };
 
 export default function HomePage() {

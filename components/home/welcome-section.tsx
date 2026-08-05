@@ -7,14 +7,14 @@ export function WelcomeSection() {
       <SiteContainer className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
         <div>
           <p className="section-eyebrow">Welcome</p>
-          <h2 className="section-title mt-3">Flooring Concepts</h2>
+          <h2 className="section-title mt-3">Floor Concepts</h2>
           <p className="mt-3 text-lg font-light text-foreground/75">
             Your destination for quality flooring
           </p>
         </div>
         <div className="space-y-5 text-[0.9375rem] leading-[1.75] text-muted-foreground sm:text-base">
           <p>
-            At Flooring Concepts, quality means more than providing the best
+            At Floor Concepts, quality means more than providing the best
             products. We go the extra mile to deliver a memorable customer
             experience, from your first visit through installation and beyond.
           </p>

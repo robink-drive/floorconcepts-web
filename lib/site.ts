@@ -2,7 +2,7 @@ import { flooringTypes } from "@/lib/flooring";
 import { services } from "@/lib/services";
 
 export const site = {
-  name: "Flooring Concepts",
+  name: "Floor Concepts",
   tagline: "Elevate Your Space",
   domain: "floorconcepts.ca",
   phone: "780-555-0100",
@@ -159,7 +159,7 @@ export const testimonials: readonly Testimonial[] = [
     name: "Allison H.",
     relativeDate: "4 months ago",
     rating: 5,
-    text: "Flooring Concepts made our whole-home reno feel effortless. Great selection, honest guidance, and installers who treated our home with care. We would absolutely use them again for any future flooring project.",
+    text: "Floor Concepts made our whole-home reno feel effortless. Great selection, honest guidance, and installers who treated our home with care. We would absolutely use them again for any future flooring project.",
     avatarColor: "bg-[oklch(0.62_0.14_45)]",
   },
   {
@@ -173,7 +173,7 @@ export const testimonials: readonly Testimonial[] = [
     name: "Priya K.",
     relativeDate: "8 months ago",
     rating: 5,
-    text: "We compared several showrooms, and Flooring Concepts had the best mix of quality, price, and service. The staff never rushed us and answered every question about maintenance and warranty.",
+    text: "We compared several showrooms, and Floor Concepts had the best mix of quality, price, and service. The staff never rushed us and answered every question about maintenance and warranty.",
     avatarColor: "bg-[oklch(0.55_0.06_195)]",
   },
   {
@@ -188,7 +188,7 @@ export const testimonials: readonly Testimonial[] = [
 export const valuesColumns = [
   {
     title: "Why Choose Us",
-    body: "Whether you need luxury vinyl for a basement or hardwood for a full main-floor renovation, Flooring Concepts brings trusted products, transparent guidance, and installation expertise. No project is too large or too small. We treat your home like our own.",
+    body: "Whether you need luxury vinyl for a basement or hardwood for a full main-floor renovation, Floor Concepts brings trusted products, transparent guidance, and installation expertise. No project is too large or too small. We treat your home like our own.",
   },
   {
     title: "Maintenance & Care",

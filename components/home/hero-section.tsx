@@ -21,7 +21,7 @@ export function HeroSection() {
       <SiteContainer className="relative z-10 py-20">
         <div className="max-w-2xl">
           <h1 className="hero-title">{site.tagline}</h1>
-          <p className="hero-subtitle mt-4">with flooring concepts</p>
+          <p className="hero-subtitle mt-4">with Floor Concepts</p>
           <div className="mt-12">
             <BracketLink href="/flooring-options">
               Explore flooring options
