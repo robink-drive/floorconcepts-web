@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <section className="relative isolate flex min-h-dvh items-center overflow-hidden">
       <Image
-        src="/coming-soon-bg.jpeg"
+        src="/coming-soon-bg.jpg"
         alt="Modern interior with premium hardwood flooring"
         fill
         priority
