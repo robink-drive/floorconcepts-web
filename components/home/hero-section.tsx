@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 
 export function HeroSection() {
   return (
-    <section className="relative isolate flex min-h-[min(88dvh,52rem)] items-center overflow-hidden">
+    <section className="relative isolate flex min-h-dvh items-center overflow-hidden">
       <Image
         src="/coming-soon-bg.jpeg"
         alt="Modern interior with premium hardwood flooring"

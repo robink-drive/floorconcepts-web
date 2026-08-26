@@ -12,6 +12,7 @@ export function Logo({ className, variant = "dark" }: LogoProps) {
   return (
     <Link
       href="/"
+      aria-label="Floor Concepts"
       className={cn(
         "group inline-flex flex-col items-center text-center leading-none transition-opacity hover:opacity-90",
         className
@@ -23,11 +24,11 @@ export function Logo({ className, variant = "dark" }: LogoProps) {
           isLight ? "text-white" : "text-brand"
         )}
       >
-        flooring
+        Floor
       </span>
       <span
         className={cn(
-          "mt-1 text-[0.6rem] font-medium uppercase tracking-[0.44em] sm:text-[0.625rem]",
+          "mt-1 text-[0.6rem] font-medium uppercase tracking-[0.2em] sm:text-[0.625rem]",
           isLight ? "text-white/75" : "text-brand-muted"
         )}
       >
