@@ -3,7 +3,7 @@
  * Merge staging into release and push (triggers prod Workers Builds).
  *
  * Usage:
- *   npm run release:promote
+ *   npm run promote:release
  *
  * Requires a clean working tree. Run from any branch; returns to your branch after.
  */

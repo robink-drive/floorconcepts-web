@@ -16,7 +16,7 @@
     "deploy:ci:staging": "opennextjs-cloudflare deploy --env=staging -- --keep-vars",
     "upload": "npm run build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
-    "release:promote": "node scripts/promote-release.mjs"
+    "promote:release": "node scripts/promote-release.mjs"
   },
   "dependencies": {
     "@hugeicons/core-free-icons": "^4.1.1",
